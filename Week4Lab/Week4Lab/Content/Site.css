@@ -1,5 +1,5 @@
 ﻿.header{
-	background-image: url("tidal-wave-surfing.jpg");
+	background-image: url("/content/images/tidal-wave-surfing.jpg");
    height:300px	;
    background-repeat: no-repeat;
    background-size: cover;
@@ -9,17 +9,16 @@
    font-size: 400%;
 }
 .pagetitle{
-	margin-top: 5%;
    font-size: 500%;
 	color: white;
+    line-height: 3em;
 }
 
 .underpagetitle{
    
    font-size: 100%;
    color: white;
-   line-height: 1px;
-   
+   margin-bottom: 200px;
 }
 
 .blogimage {
@@ -28,8 +27,9 @@
    padding-right:3px;
 }
 
-.blogimage img{
+.blogimage img:hover{
 	width:100%;
+    
 }
 
 .firstHeader{
